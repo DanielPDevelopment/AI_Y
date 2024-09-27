@@ -2,6 +2,8 @@
 
 **QueryIntelligence** is a powerful offline AI tool that allows users to seamlessly integrate their internal documents and files. Designed to support a variety of popular and niche large language models (LLMs), QueryIntelligence empowers users to harness their unique data effectively.
 
+[<img src="https://github.com/Ofrepose/Ofrepose/blob/master/imgs/QiFull.gif">](https://github.com/Ofrepose/Ofrepose/blob/master/imgs/QiFull.gif)
+
 ## Table of Contents
 
 - [Features](#features)
