@@ -1,0 +1,35 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "react/react-in-jsx-scope": "off", // Not needed post React 17 as React is automatically imported when JSX is used.
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }], // Allow JSX in .js and .jsx files
+    "import/no-unresolved": "off", // ignore the 'ESLint cannot resolve the path to the module you're trying to import' warning
+    // Source: https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/function-component-definition.md
+    "react/function-component-definition": [2, {
+    "namedComponents": ["arrow-function", "function-expression"],
+    "unnamedComponents": ["arrow-function", "function-expression"]
+    }],
+    "linebreak-style": "off",
+    "no-console": "off",
+    "no-underscore-dangle": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/no-children-prop": "off",
+    "react/no-unstable-nested-components": "off",
+    "jsx-a11y/anchor-has-content": "off",
+    "react/forbid-prop-types": [2, { "forbid": ["any"] }],
+    "react/no-unescaped-entities": "off",
+    "react/require-default-props": "off"
+  },
+  "globals": {
+    "document": "readonly",
+    "process": "readonly",
+    "window": "readonly",
+    "navigator": "readonly",
+    "WebSocket": "readonly",
+    "localStorage": "readonly",
+    "FileReader": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020
+  }
+}
